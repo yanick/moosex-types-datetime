@@ -127,7 +127,7 @@ A class type for L<DateTime>.
 =item from C<Num>
 
 Uses L<DateTime/from_epoch>. Floating values will be used for subsecond
-percision, see L<DateTime> for details.
+precision, see L<DateTime> for details.
 
 =item from C<HashRef>
 
