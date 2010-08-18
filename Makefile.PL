@@ -20,5 +20,10 @@ WriteMakefile(
         'namespace::clean'   => '0.08',
         'MooseX::Types'      => '0.19',
     },
+    META_MERGE => {
+        resources => {
+            repository  => 'http://github.com/nothingmuch/moosex-types-datetime',
+        },
+    },
 );
 
